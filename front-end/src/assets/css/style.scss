@@ -1,0 +1,59 @@
+//Global colors
+$primary-color: #D8232A;
+$secondary-color: #ffde82;
+$text-color: #303030;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
+h1 {
+    font-size: 4.5em;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+h3 {
+    font-size: 23em;
+}
+
+p {
+    font-size: 1.1em;
+}
+
+header {
+    nav {
+        .nav-link {
+            text-transform: capitalize;
+            color: #303030;
+            font-size: 15px;
+            line-height: 20px;
+            text-decoration: none;
+            padding: 10px 35px 7px 16px;
+            display: inline-block;
+            position: relative;
+            border: #fff solid 1px;
+            transition: none;
+        }
+        .logo{
+            span{
+                color: $primary-color;
+            }
+            // text-transform: uppercase;
+            // font-size: 18px;
+        }
+    }
+
+    .container-full {
+        border-bottom: solid 1px #e8e8e8;
+        
+        left: 0;
+        top: 0px;
+        z-index: 74;
+        transition: all .3s;
+    }
+}
